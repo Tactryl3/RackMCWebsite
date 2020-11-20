@@ -55,8 +55,7 @@
      text-indent: 4px;
      line-height: 14px;
      padding-bottom: 2px;
-     font-family: 'Bebas Neue';
-     src: 'https://fonts.googleapis.com/css?family=Bebas Neue';
+     font-family: '';
      font-weight: bold;
    }
 
@@ -66,8 +65,7 @@
      background: rgba(35, 39, 65, 0);
      font-size: 50px;
      color: #ffffff;
-     font-family: 'Bebas Neue';
-     src: 'https://fonts.googleapis.com/css?family=Bebas Neue';
+     font-family: '';
      font-weight: bold;
    }
    
