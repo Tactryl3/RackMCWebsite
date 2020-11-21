@@ -35,7 +35,8 @@
 	  -moz-animation: blink .75s linear infinite;
   	-ms-animation: blink .75s linear infinite;
   	-o-animation: blink .75s linear infinite;
-  	 animation: blink .75s linear infinite;
+     animation: blink .75s linear infinite;
+    display: inline-block;
   }
   @-webkit-keyframes blink {
   	0% { opacity: 1; }
@@ -103,26 +104,30 @@
      line-height: 14px;
      padding-bottom: 2px;
      font-family: 'Montserrat';
-     font-weight: bold;
+     font-weight: normal;
    }
 
-   .btn{
-     width: 500px;
-     height: 70px;
-     background: rgba(114, 137, 218, 0.5);
-     font-size: 50px;
-     color: #ffffff;
-     font-family: 'Montserrat';
-     font-weight: bold;
+   .subtitle{
+     font-size: 25px;
    }
+
+   .btn_discord{
+    background: #668ad8;/*ButtonColor*/
+    border-bottom: solid 4px #627295;
+   }
+
+   .btn_store{
+    background: #4ebeab;/*ButtonColor*/
+    border-bottom: solid 4px #359671;
+   }
+
    .square_btn{
     display: inline-block;
     padding: 0.5em 1em;
     text-decoration: none;
-    background: #668ad8;/*ButtonColor*/
     color: #FFF;
-    border-bottom: solid 4px #627295;
     border-radius: 3px;
+    font-size: 25px;
 }
 .square_btn:active {/*OnClick*/
     -ms-transform: translateY(4px);
