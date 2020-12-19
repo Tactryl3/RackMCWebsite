@@ -148,3 +148,10 @@
      background-position: 50% 50%;
      background-repeat: no-repeat;
    }
+
+   .topline {
+     padding-bottom: 38px;
+   }
+   .bottomline {
+     padding-bottom: 28px;
+   }
