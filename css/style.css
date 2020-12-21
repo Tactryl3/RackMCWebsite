@@ -140,8 +140,8 @@
    /* ---- particles.js container ---- */
    
    #particles-js{
-     width: max-content;
-     height: min-content;
+     width: device-width;
+     height: 100%
      background-color: #101011;
      background-image: url('');
      background-size: cover;
