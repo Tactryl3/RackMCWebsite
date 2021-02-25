@@ -94,7 +94,7 @@
    .wrapper{
      background: rgba(35, 39, 65, 0);
      position: absolute;
-     top: 30%;
+     top: 28%;
      left: 10%;
      color: #ffffff;
      font-size: 50px;
@@ -150,7 +150,9 @@
    }
 
    .topline {
-     padding-bottom: 38px;
+     padding-bottom: 20px;
+     line-height: 70px;
+     word-wrap: break-word;
    }
    .bottomline{
      padding-bottom: 28px;
