@@ -211,8 +211,10 @@
 
 .event{
   background: rgba(35, 39, 65, 0);
-  top: 30%;
+  top: 28%;
   left: 10%;
+  width: auto;
+  height: auto;
   position: absolute;
   color: #ffffff;
   font-size: 50px;
@@ -222,3 +224,15 @@
   font-family: 'Montserrat';
   font-weight: normal;
 }
+ .eventtitle {
+  text-decoration: underline;
+  text-decoration-color: rgba(0, 191, 255, 0.836);
+  text-underline-offset: 2px;
+ }
+
+ .eventsubtitle {
+  font-size: 25px;
+  line-height: 40px;
+  text-underline-offset: 2px;
+  padding-bottom: 25px;
+ }
